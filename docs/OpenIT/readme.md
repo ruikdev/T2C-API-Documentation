@@ -4,6 +4,10 @@
   <h1>OpenIT</h1>
 </div>
 
+::: warning Fonctions Manquantes
+**Il reste des fonctions Synthèse non-découverts, le CMS de T2C est privé, donc impossible de tous les obtenir.**
+:::
+
 ## Présentation
 
 **Movi OpenIT** est une compagnie spécialisée dans la digitalisation de la mobilité.

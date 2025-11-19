@@ -23,7 +23,7 @@ L'échange entre ce serveur se fait principalement avec le protocole [SOAP (Simp
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------- |
 | __AjouteIdentifiant                                                                                                                                         |                                                 |
 | __ListeIdentifiants                                                                                                                                         |                                                 |
-| [AjouteIdentifiantAndroid](/WD_Push/AjouteIdentifiantAndroid.md)                                                                                                                                    |                                                 |
+| [AjouteIdentifiantAndroid](/WD_Push/AjouteIdentifiantAndroid.md)                                                                                                                                    | Ajouter un Identifiant Android pour recevoir des push-notifications (GSM)  |
 | AjouteIdentifiantIOS                                                                                                                                        |                                                 |
 | [Ajoute_Journal](/WD_Push/Ajoute_Journal.md)                                           | ❓ *Afficher un message dans les logs?*         |
 | [DonneVersionReseau](/WD_Push/DonneVersionReseau.md)                                   | Obtenir la dernière version du réseau.          |
