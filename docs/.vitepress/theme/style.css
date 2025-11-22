@@ -45,6 +45,12 @@
  * Component: Home
  * -------------------------------------------------------------------------- */
 
+.VPBadge.tip {
+    border-color: var(--vp-badge-tip-border);
+    color: #fa5a3b;
+    background-color: #d6332729;
+}
+
 :root {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(
