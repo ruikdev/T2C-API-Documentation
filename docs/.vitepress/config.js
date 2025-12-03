@@ -20,7 +20,7 @@ export default defineConfig({
     ['meta', { name: 'google-site-verification', content: 'XVCEArdPRAwzn5EyP6qS89xwwPJjR7AGCMdQODkZKaM' }],
   ],
   themeConfig: {
-    siteTitle: 'T2C API Documentation<br><span class="VPBadge tip">v1.3.0</span>',
+    siteTitle: 'T2C API Docs',
     nav: [
       { text: 'Accueil', link: '/' },
       { text: 'Introduction', link: '/introduction' },
