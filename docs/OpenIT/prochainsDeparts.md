@@ -140,24 +140,24 @@ Nous allons prendre l'exemple d'un départ, la réponse est formatée comme ci:
 * `routeId=` correspond à l'identifiant de la route.
 * `dateTime=` correspond à l'heure de l'arrivée du véhicule.
 * `plannedDateTime=` correspond à l'heure de l'arrivée du véhicule (approximatif).
-* `arrivalDateTime=` *inutilisé?*
-* `plannedArrivalDateTime=` *inutilisé?*
-* `id=` *identifiant du depart?*
+* `arrivalDateTime=` *inutilisé*
+* `plannedArrivalDateTime=` *inutilisé*
+* `id=` correspond à l'identifiant du depart
 * `is_canceled=` indique si le depart est annulé.
 * `handicapped_access=` indique si l'arrêt *"supporte"* les personnes à mobilité réduite.
-* `blink=` *???*
+* `blink=` *inutilisé*
 * `realTime=` indique si l'horaire de depart est en temps réel.
 * `waiting_time=` est un compte à rebours du temps restant à attendre.
 
 **La balise `<stop>`:**
 * `id=` correspond à l'identifiant de l'arrêt.
-* `operatorCode=` *inutilisé???*
+* `operatorCode=` *inutilisé*
 * `name=` correspond au nom de l'arrêt.
 * `handicapped_access=` indique si l'arrêt *"supporte"* les personnes à mobilité réduite.
 
 **La balise `<line>`:**
 * `id=` correspond à l'identifiant de la Ligne.
-* `creatorId=` *???*
+* `creatorId=` *inutilisé*
 * `name=` correspond au nom complet de la Ligne.
 * `shortName=` correspond au nom "court" de la Ligne.
 * `shortName=` correspond au nom "long" de la Ligne.

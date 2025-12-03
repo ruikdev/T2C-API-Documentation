@@ -5,7 +5,9 @@
 </div>
 
 ::: warning Fonctions Manquantes
-**Il reste des fonctions Synthèse non-découverts, le CMS de T2C est privé, donc impossible de tous les obtenir.**
+**Il reste des fonctions Synthèse non-découvertes, le CMS de T2C est privé, donc impossible de tous les obtenir.**
+
+Si vous trouvez des fonctions Synthèse non-présentes ici, merci d'ouvrir une [Issue](https://github.com/dumb-software/T2C-API-Documentation/issues).
 :::
 
 ## Présentation
