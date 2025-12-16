@@ -102,5 +102,5 @@ En decodant l'exemple ci dessus, cela donne:
 ReponseOKT2C--[ { "m_sNom_ligne_img":"ligne-a.jpg", "m_sbufImage_ligne":"FF D8 FF E0 00 10 4A 46 49 46 00 01 01 01 01 90\r\n01 90 00 00 FF E1 00 68 45 78...
 ```
 :::tip IMPORTANT
-Les images sont encore encodés, en Hex cette fois ci, utilisez [ce preset CyberChef](https://cyberchef.io/#recipe=From_Hex('Auto')) pour extraire le contenu encodé en Hex uniquement.
+Les images sont encore encodés, en Hex cette fois ci, utilisez [ce preset CyberChef](https://cyberchef.io/#recipe=From_Hex('Auto')Render_Image('Raw')) pour extraire le contenu encodé en Hex uniquement.
 :::
