@@ -3,7 +3,7 @@
 Obtenir les images des Lignes du réseau T2C. 
 
 :::info
-Cela contient les images *en 180p* des Lignes affichés dans l'application.
+Cela contient les images *en 144p* des Lignes affichés dans l'application.
 :::
 
 ## Obtenir les derniers tarifs
