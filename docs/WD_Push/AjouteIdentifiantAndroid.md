@@ -1,9 +1,5 @@
 # T2C Push Server - AjouteIdentifiantAndroid
 
-::: warning WORK IN PROGRESS
-**Cet endpoint est en cours de documentation!**
-:::
-
 Ajouter un identifiant du service de notification Android (GSM) à l'aide d'un Jeton Firebase FCM
 
 ::: info
@@ -43,9 +39,18 @@ Cette action permet d'ajouter son identifiant FCM pour que le Serveur Push nous 
 | :----------------------- | :------------------------------------------------ | :--------------------------------------------------- |
 | `<ns1:bufIdentifiant>`   | `ZGRzbFFVMTRTYzZURGJpWTd2R05OUTpBUEE5MWJINVlsX3JKS0tnc0VraW5XbGhMWlh5TTVm&#13;Ti12LWhSbjA5T0JPMkJqQks5YTZEYlAtMUFwcVRZTEZvRTZuYjZKcmNyQzRjNzNJbEdrTVFJ&#13;eDRrUEJ6bXJ1bGR5bUd5V1U2dmpJM05ZVkF6azV3OGJyYw==` | **Requis.** [Token Firebase Cloud Messaging.](https://overflow.canine.tools/questions/37671380/what-is-fcm-token-in-firebase#37671576) |
 | `<ns1:idUniqueAndroid>`  | `a1b2c3d4e5f67890` | **Requis.** [Identifiant Android.](https://developer.android.com/reference/android/provider/Settings.Secure.html#ANDROID_ID) |
-| `<ns1:sInfoPerso>`       | `1	1	1	0	0	Ligne A;` | Paramètres de Canal. |
+| `<ns1:sInfoPerso>`       | `1	1	1	0	0	Ligne Tram A;` | Paramètres de Canal. |
 
-**WIP: INFOS CANAL**
+### Attributs des paramètres de Canal:
+
+Les paramètres de Canal se formatent comme ci:
+`NotifsActivés NotifsGénérales NotifsLignes NotifsTouteLigne NotifsTouteLigne Données;`
+
+* `NotifsActivés` définissent le statut des notifications de l'utilisateur, `0` désactive les notifications (push), `1` les activent.
+* `NotifsGénérales` définit le statut du Canal global, `1` l'active, `0` de désactive, il est inchangeable dans l'appli T2C. *(Voir Canal `1` dans [Notification.txt](/pegase/notification.md))*
+* `NotifsLignes` définit le statut du Canal spécifique,`1` l'active, `0` de désactive, il est inchangeable dans l'appli T2C. *(Voir Canal `2` dans [Notification.txt](/pegase/notification.md))*
+* `NotifsTouteLigne` définit le filtre du Canal spécifique, `1` active les notifications pour toutes les lignes, `0` active les notifications uniquement les lignes sélectionnées dans `Données`. *(Oui, ce paramètre est bien présent 2 fois)*
+* `Données` est le filtre des lignes spécifiques, les données correspondent au `m_sLigne_name` des lignes sélectionnés. *(voir [Retourne_Donnees_Reseau_ligne](/WD_Push/Retourne_Donnees_Reseau_ligne.md))*
 
 ## Exemple de réponse
 
@@ -58,7 +63,7 @@ Cette action permet d'ajouter son identifiant FCM pour que le Serveur Push nous 
 	xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
 	<SOAP-ENV:Header/>
 	<SOAP-ENV:Body>
-		<AjouteIdentifiantAndroidResult>false</AjouteIdentifiantAndroidResult>
+		<AjouteIdentifiantAndroidResult>true</AjouteIdentifiantAndroidResult>
 	</SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 ```
