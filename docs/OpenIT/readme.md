@@ -27,6 +27,8 @@ Les instances suivantes sont *"obsolètes"* et ne devraient pas être utilisés.
 * `http://www.t2c.fr/admin/synthese`
 
 * `http://t2c-prod.rcsmobility.com/synthese`
+
+* `http://t2c-prod.moviplus.ch/synthese`
 :::
 
 
