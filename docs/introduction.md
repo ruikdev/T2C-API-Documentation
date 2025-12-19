@@ -4,6 +4,16 @@
   <h1>Documentation non-officielle de l'API T2C</h1>
 </div>
 
+::: danger Avertissement: Nouveau Réseau T2C
+**Mise à Jour du 20 Décembre 2025:**
+
+**Le nouveau réseau et la nouvelle appli T2C changent beaucoup de choses.**
+
+Certaines informations de cette documentation sont potentiellement déjà obsolètes!
+
+Cela prendra un moment de tout mettre à jour!
+:::
+
 ## Backends
 | Backends                                                  | Description                                                     | Statut                |
 | :-------------------------------------------------------- | :-------------------------------------------------------------- | :-------------------- |
