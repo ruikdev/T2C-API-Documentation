@@ -50,7 +50,7 @@ export default defineConfig({
       copyright: 'Documentation par Dumb Software'
     },
 
-        sidebar: {
+    sidebar: {
       '/': [
         {
           text: "Documentation",
@@ -123,4 +123,5 @@ export default defineConfig({
     },
   },
 })
+
 
