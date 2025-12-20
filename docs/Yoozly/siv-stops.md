@@ -4,13 +4,13 @@
 
 Récupère la liste de tous les arrêts du réseau T2C.
 
-### Requête
+## Requête
 
 ```http
 GET https://api.t2c.fr/siv/stops
 ```
 
-### Réponse
+## Exemple de réponse
 
 ```json
 [
@@ -31,7 +31,7 @@ GET https://api.t2c.fr/siv/stops
 ]
 ```
 
-### Champs
+## Champs
 
 | Champ | Type | Description |
 |-------|------|-------------|
@@ -47,25 +47,25 @@ GET https://api.t2c.fr/siv/stops
 
 Récupère les informations détaillées d'un arrêt spécifique.
 
-### Requête
+## Requête
 
 ```http
 GET https://api.t2c.fr/siv/stops/:id
 ```
 
-### Paramètres
+## Paramètres
 
 | Paramètre | Type | Description |
 |-----------|------|-------------|
 | `id` | string | Identifiant de l'arrêt (ex: `JAUD`) |
 
-### Exemple
+## Exemple
 
 ```http
 GET https://api.t2c.fr/siv/stops/JAUD
 ```
 
-### Réponse
+## Exemple de réponse
 
 ```json
 [
@@ -96,25 +96,25 @@ GET https://api.t2c.fr/siv/stops/JAUD
 
 Recherche des arrêts par nom.
 
-### Requête
+## Requête
 
 ```http
 GET https://api.t2c.fr/siv/stops/search?search=:query
 ```
 
-### Paramètres
+## Paramètres
 
 | Paramètre | Type | Description |
 |-----------|------|-------------|
 | `search` | string | Terme de recherche |
 
-### Exemple
+## Exemple
 
 ```http
 GET https://api.t2c.fr/siv/stops/search?search=jaude
 ```
 
-### Réponse
+## Exemple de réponse
 
 ```json
 [
@@ -139,7 +139,7 @@ GET https://api.t2c.fr/siv/stops/search?search=jaude
 ]
 ```
 
-### Champs supplémentaires
+## Champs supplémentaires
 
 | Champ | Type | Description |
 |-------|------|-------------|
