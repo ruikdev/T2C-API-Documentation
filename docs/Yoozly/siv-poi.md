@@ -4,13 +4,13 @@
 
 Récupère la liste des points d'intérêt (arrêts avec leur type).
 
-### Requête
+## Requête
 
 ```http
 GET https://api.t2c.fr/siv/poi
 ```
 
-### Réponse
+## Exemple de réponse
 
 ```json
 {
@@ -40,7 +40,7 @@ GET https://api.t2c.fr/siv/poi
 }
 ```
 
-### Champs
+## Champs
 
 | Champ | Type | Description |
 |-------|------|-------------|
@@ -50,7 +50,7 @@ GET https://api.t2c.fr/siv/poi
 | `name` | string | Nom du point d'intérêt |
 | `type` | string | Type de POI |
 
-### Types de POI
+## Types de POI
 
 | Valeur | Description |
 |--------|-------------|
