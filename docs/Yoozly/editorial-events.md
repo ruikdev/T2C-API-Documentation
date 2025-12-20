@@ -4,26 +4,26 @@
 
 Récupère les événements T2C.
 
-### Requête
+## Requête
 
 ```http
 GET https://api.t2c.fr/editorial/events
 ```
 
-### Paramètres
+## Paramètres
 
 | Paramètre | Type | Description |
 |-----------|------|-------------|
 | `featured` | boolean | Événements mis en avant uniquement |
 | `filterByDate` | boolean | Filtrer par date |
 
-### Exemple
+## Exemple
 
 ```http
 GET https://api.t2c.fr/editorial/events?featured=true&filterByDate=true
 ```
 
-### Réponse
+## Exemple de réponse
 
 ```json
 {
@@ -46,7 +46,7 @@ GET https://api.t2c.fr/editorial/events?featured=true&filterByDate=true
 }
 ```
 
-### Champs
+## Champs
 
 | Champ | Type | Description |
 |-------|------|-------------|
