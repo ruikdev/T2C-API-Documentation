@@ -14,7 +14,18 @@ Certaines informations de cette documentation sont potentiellement déjà obsol�
 Cela prendra un moment de tout mettre à jour!
 :::
 
-## Backends
+## API "Yoozly" (Actuelle)
+
+"Yoozly" est la toute nouvelle API qu'utilise l'application T2C sur les versions `3.0`.
+
+::: tip Work In Progress
+Nous analysons cette nouvelle API actuellement, il n'y a donc pas encore de documentation disponible pour celle-ci.
+:::
+
+## API "WinDev" (Obsolète)
+
+L'API "WinDev" était utilisée sur les versions `2.5` par l'application T2C. Le 20 Décembre 2025, la T2C a opéré une refonte totale de leur infrastructure pour laisser place à l'API "Yoozly", rendant obsolète celle-ci.
+
 | Backends                                                  | Description                                                     | Statut                |
 | :-------------------------------------------------------- | :-------------------------------------------------------------- | :-------------------- |
 | [OpenIT](/OpenIT/readme.md)                               | Table des Horaires, Prochains passages et Itinéraires.          | 99%                   |

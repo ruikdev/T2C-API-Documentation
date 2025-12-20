@@ -1,5 +1,9 @@
 # T2C XML - Evenements.xml
 
+::: danger Avertissement: Nouveau Réseau T2C
+Cette page parle d'un **endpoint obsolète** lors de la migration vers l'API "Yoozly"
+:::
+
 Dernières "Actualités" de l'application T2C.
 
 ::: info

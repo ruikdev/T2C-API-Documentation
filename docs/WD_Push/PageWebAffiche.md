@@ -1,5 +1,9 @@
 # T2C Push Server - PageWebAffiche
 
+::: danger Avertissement: Nouveau Réseau T2C
+Cette page parle d'un **endpoint obsolète** lors de la migration vers l'API "Yoozly"
+:::
+
 Obtenir une URL maintenant inutilisé.
 
 Potentiellement utilisé pour des évènements.

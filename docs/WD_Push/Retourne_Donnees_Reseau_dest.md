@@ -1,6 +1,11 @@
 # T2C Push Server - Retourne_Donnees_Reseau_dest
 
+::: danger Avertissement: Nouveau Réseau T2C
+Cette page parle d'un **endpoint obsolète** lors de la migration vers l'API "Yoozly"
+:::
+
 Obtenir les informations des destinations du réseau T2C.
+
 :::info
 Cela comprend l'identifiant de la ligne, l'identifiant et le nom de la destination, l'identifiant de l'arrêt et l'identifiant de zone.
 :::

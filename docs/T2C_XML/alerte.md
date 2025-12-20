@@ -1,5 +1,9 @@
 # T2C XML - Alerte.xml
 
+::: danger Avertissement: Nouveau Réseau T2C
+Cette page parle d'un **endpoint obsolète** lors de la migration vers l'API "Yoozly"
+:::
+
 Les Dernières Alertes du Réseau T2C.
 
 ::: info

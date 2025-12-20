@@ -1,5 +1,9 @@
 # T2C XML - Infos-trafic.xml
 
+::: danger Avertissement: Nouveau Réseau T2C
+Cette page parle d'un **endpoint obsolète** lors de la migration vers l'API "Yoozly"
+:::
+
 Les dernières informations du trafic T2C.
 
 ::: info

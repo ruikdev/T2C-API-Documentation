@@ -1,6 +1,10 @@
 # T2C Push Server - DonneVersionReseau
 
-Obtenir la dernière version du réseau.
+::: danger Avertissement: Nouveau Réseau T2C
+Cette page parle d'un **endpoint obsolète** lors de la migration vers l'API "Yoozly"
+:::
+
+Permettait d'obtenir la dernière version du réseau.
 
 ::: info
 C'est la première action que l'appli execute, elle vérifie si une nouvelle version du réseau existe.

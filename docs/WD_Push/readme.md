@@ -4,13 +4,17 @@
   <h1>WD Push Server</h1>
 </div>
 
+::: danger Avertissement: Nouveau Réseau T2C
+Cette page parle d'une **backend obsolète** lors de la migration vers l'API "Yoozly"
+:::
+
 ::: warning WORK IN PROGRESS
 **Ce serveur est en cours de documentation!**
 :::
 
 ## Présentation
 
-**WinDev Push Server** est une backend principalement utilisée pour executer des actions, elle est utilisée pour recevoir certaines informations du réseau T2C. (comme les identifiants des lignes, arrêts, les images, tarifs...)
+**WinDev Push Server** était une backend principalement utilisée pour executer des actions, elle était utilisée pour recevoir certaines informations du réseau T2C. (comme les identifiants des lignes, arrêts, les images, tarifs...)
 
 [Ce serveur](https://help.windev.com/fr-FR/?1000021015) est proposé par WinDev Mobile et utilise la même infrastructure que leur application mobile, ce qui facilite son intégration.
 

@@ -1,5 +1,9 @@
 # T2C Push Server - Ajoute_Journal
 
+::: danger Avertissement: Nouveau Réseau T2C
+Cette page parle d'un **endpoint obsolète** lors de la migration vers l'API "Yoozly"
+:::
+
 :::warning On sait pas ce que ça fait..
 
 ![Emoji idk.](/idk.png)

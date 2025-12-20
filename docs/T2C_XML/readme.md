@@ -6,11 +6,15 @@
 
 ## Présentation
 
-Les **XML T2C** contiennent toutes les dernières informations du réseau T2C.
+::: danger Avertissement: Nouveau Réseau T2C
+Cette page parle d'une **backend obsolète** lors de la migration vers l'API "Yoozly"
+:::
 
-Cela comprend les Alertes, les Brèves, les Évènements et les Infos-trafic.
+Les **XML T2C** contenaient toutes les dernières informations du réseau T2C.
 
-Tous les XML suivants sont utilisés dans l'application T2C.
+Cela comprenait les Alertes, les Brèves, les Évènements et les Infos-trafic.
+
+Tous les XML suivants sont utilisés dans l'application T2C en version `2.5`.
 
 ## Endpoints
 

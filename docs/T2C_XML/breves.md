@@ -1,5 +1,9 @@
 # T2C XML - Breves.xml
 
+::: danger Avertissement: Nouveau Réseau T2C
+Cette page parle d'un **endpoint obsolète** lors de la migration vers l'API "Yoozly"
+:::
+
 Dernières Brèves du Réseau T2C.
 
 ::: info

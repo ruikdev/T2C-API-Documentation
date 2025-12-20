@@ -1,5 +1,9 @@
 # T2C Push Server - Retourne_Donnees_Reseau_ligne
 
+::: danger Avertissement: Nouveau Réseau T2C
+Cette page parle d'un **endpoint obsolète** lors de la migration vers l'API "Yoozly"
+:::
+
 Obtenir les informations des Lignes du réseau T2C. 
 
 :::info
