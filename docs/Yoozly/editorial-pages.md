@@ -4,31 +4,31 @@
 
 Récupère le contenu d'une page statique.
 
-### Requête
+## Requête
 
 ```http
 GET https://api.t2c.fr/editorial/page/:slug
 ```
 
-### Paramètres
+## Paramètres
 
 | Paramètre | Type | Description |
 |-----------|------|-------------|
 | `slug` | string | Identifiant de la page |
 
-### Pages connues
+## Pages connues
 
 | Slug | Description |
 |------|-------------|
 | `mentions-legales` | Mentions légales |
 
-### Exemple
+## Exemple
 
 ```http
 GET https://api.t2c.fr/editorial/page/mentions-legales
 ```
 
-### Réponse
+## Exemple de réponse
 
 ```json
 {
@@ -43,7 +43,7 @@ GET https://api.t2c.fr/editorial/page/mentions-legales
 }
 ```
 
-### Champs
+## Champs
 
 | Champ | Type | Description |
 |-------|------|-------------|
