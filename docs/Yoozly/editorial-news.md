@@ -4,25 +4,25 @@
 
 Récupère les dernières actualités T2C.
 
-### Requête
+## Requête
 
 ```http
 GET https://api.t2c.fr/editorial/news
 ```
 
-### Paramètres
+## Paramètres
 
 | Paramètre | Type | Description |
 |-----------|------|-------------|
 | `limit` | number | Nombre maximum d'actualités à retourner |
 
-### Exemple
+## Exemple
 
 ```http
 GET https://api.t2c.fr/editorial/news?limit=5
 ```
 
-### Réponse
+## Exemple de réponse
 
 ```json
 {
@@ -49,7 +49,7 @@ GET https://api.t2c.fr/editorial/news?limit=5
 }
 ```
 
-### Champs
+## Champs
 
 | Champ | Type | Description |
 |-------|------|-------------|
@@ -63,7 +63,7 @@ GET https://api.t2c.fr/editorial/news?limit=5
 | `data[].created` | string | Date de création (ISO 8601) |
 | `data[].thumbnail` | object | Image miniature |
 
-### Objet Thumbnail
+## Objet Thumbnail
 
 | Champ | Type | Description |
 |-------|------|-------------|
