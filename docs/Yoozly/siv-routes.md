@@ -4,13 +4,13 @@
 
 Récupère la liste de toutes les lignes du réseau T2C.
 
-### Requête
+## Requête
 
 ```http
 GET https://api.t2c.fr/siv/routes
 ```
 
-### Réponse
+## Exemple de réponse
 
 ```json
 [
@@ -49,7 +49,7 @@ GET https://api.t2c.fr/siv/routes
 ]
 ```
 
-### Champs
+## Champs
 
 | Champ | Type | Description |
 |-------|------|-------------|
@@ -73,25 +73,25 @@ GET https://api.t2c.fr/siv/routes
 
 Récupère les informations détaillées d'une ligne.
 
-### Requête
+## Requête
 
 ```http
 GET https://api.t2c.fr/siv/routes/:id
 ```
 
-### Paramètres
+## Paramètres
 
 | Paramètre | Type | Description |
 |-----------|------|-------------|
 | `id` | string | Identifiant de la ligne (ex: `A`, `B`, `3`) |
 
-### Exemple
+## Exemple
 
 ```http
 GET https://api.t2c.fr/siv/routes/A
 ```
 
-### Réponse
+## Exemple de réponse
 
 ```json
 {
@@ -120,7 +120,7 @@ GET https://api.t2c.fr/siv/routes/A
 }
 ```
 
-### Champs supplémentaires
+## Champs supplémentaires
 
 | Champ | Type | Description |
 |-------|------|-------------|
