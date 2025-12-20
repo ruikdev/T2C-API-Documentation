@@ -25,13 +25,18 @@ export default defineConfig({
       { text: 'Accueil', link: '/' },
       { text: 'Introduction', link: '/introduction' },
       {
-        text: 'Backends',
+        text: 'API Yoozly',
         items: [
-          { text: 'Yoozly (v3.x)', link: '/Yoozly/readme' },
-          { text: 'OpenIT (obsolète)', link: '/OpenIT/readme' },
-          { text: 'T2C XML (obsolète)', link: '/T2C_XML/readme' },
-          { text: 'WinDev Push Server (obsolète)', link: '/WD_Push/readme' },
-          { text: 'Pegase (obsolète)', link: '/pegase/readme' },
+          { text: 'API Yoozly', link: '/Yoozly/readme' }
+        ]
+      },
+      { 
+        text: 'API WinDev',
+        items: [
+          { text: 'OpenIT', link: '/OpenIT/readme' },
+          { text: 'T2C XML', link: '/T2C_XML/readme' },
+          { text: 'WinDev Push Server', link: '/WD_Push/readme' },
+          { text: 'Pegase', link: '/pegase/readme' },
         ]
       }
     ],
@@ -45,7 +50,7 @@ export default defineConfig({
       copyright: 'Documentation par Dumb Software'
     },
 
-    sidebar: {
+        sidebar: {
       '/': [
         {
           text: "Documentation",
@@ -54,7 +59,7 @@ export default defineConfig({
           ],
         },
         {
-          text: "Yoozly (v3.x)",
+          text: "Yoozly",
           collapsed: false,
           items: [
             { text: 'Informations', link: '/Yoozly/readme' },
@@ -70,8 +75,8 @@ export default defineConfig({
           ],
         },
         {
-          text: "OpenIT (obsolète)",
-          collapsed: true,
+          text: "OpenIT",
+          collapsed: false,
           items: [
             { text: 'Informations', link: '/OpenIT/readme' },
             { text: 'Timetables', link: '/OpenIT/timetables' },
@@ -80,8 +85,8 @@ export default defineConfig({
           ],
         },
         {
-          text: "T2C_XML (obsolète)",
-          collapsed: true,
+          text: "T2C_XML",
+          collapsed: false,
           items: [
             { text: 'Informations', link: '/T2C_XML/readme' },
             { text: 'Alerte', link: '/T2C_XML/alerte' },
@@ -91,15 +96,15 @@ export default defineConfig({
           ],
         },
         {
-          text: "WinDev Push Server (obsolète)",
-          collapsed: true,
+          text: "WinDev Push Server",
+          collapsed: false,
           items: [
             { text: 'Informations', link: '/WD_Push/readme' },
           ],
         },
         {
-          text: "Pegase (obsolète)",
-          collapsed: true,
+          text: "Pegase",
+          collapsed: false,
           items: [
             { text: 'Informations', link: '/pegase/readme' },
             { text: 'Paramètres', link: '/pegase/param' },
@@ -118,3 +123,4 @@ export default defineConfig({
     },
   },
 })
+
