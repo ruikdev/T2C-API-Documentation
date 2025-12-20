@@ -27,10 +27,11 @@ export default defineConfig({
       {
         text: 'Backends',
         items: [
-          { text: 'OpenIT', link: '/OpenIT/readme' },
-          { text: 'T2C XML', link: '/T2C_XML/readme' },
-          { text: 'WinDev Push Server', link: '/WD_Push/readme' },
-          { text: 'Pegase', link: '/pegase/readme' },
+          { text: 'Yoozly (v3.x)', link: '/Yoozly/readme' },
+          { text: 'OpenIT (obsolète)', link: '/OpenIT/readme' },
+          { text: 'T2C XML (obsolète)', link: '/T2C_XML/readme' },
+          { text: 'WinDev Push Server (obsolète)', link: '/WD_Push/readme' },
+          { text: 'Pegase (obsolète)', link: '/pegase/readme' },
         ]
       }
     ],
@@ -53,8 +54,24 @@ export default defineConfig({
           ],
         },
         {
-          text: "OpenIT",
+          text: "Yoozly (v3.x)",
           collapsed: false,
+          items: [
+            { text: 'Informations', link: '/Yoozly/readme' },
+            { text: 'SIV - Arrêts', link: '/Yoozly/siv-stops' },
+            { text: 'SIV - Lignes', link: '/Yoozly/siv-routes' },
+            { text: 'SIV - C.Vélo', link: '/Yoozly/siv-bike' },
+            { text: 'SIV - POI', link: '/Yoozly/siv-poi' },
+            { text: 'SIV - Itinéraires', link: '/Yoozly/siv-itineraries' },
+            { text: 'Editorial - News', link: '/Yoozly/editorial-news' },
+            { text: 'Editorial - Events', link: '/Yoozly/editorial-events' },
+            { text: 'Editorial - Pages', link: '/Yoozly/editorial-pages' },
+            { text: 'Status', link: '/Yoozly/status' },
+          ],
+        },
+        {
+          text: "OpenIT (obsolète)",
+          collapsed: true,
           items: [
             { text: 'Informations', link: '/OpenIT/readme' },
             { text: 'Timetables', link: '/OpenIT/timetables' },
@@ -63,8 +80,8 @@ export default defineConfig({
           ],
         },
         {
-          text: "T2C_XML",
-          collapsed: false,
+          text: "T2C_XML (obsolète)",
+          collapsed: true,
           items: [
             { text: 'Informations', link: '/T2C_XML/readme' },
             { text: 'Alerte', link: '/T2C_XML/alerte' },
@@ -74,15 +91,15 @@ export default defineConfig({
           ],
         },
         {
-          text: "WinDev Push Server",
-          collapsed: false,
+          text: "WinDev Push Server (obsolète)",
+          collapsed: true,
           items: [
             { text: 'Informations', link: '/WD_Push/readme' },
           ],
         },
         {
-          text: "Pegase",
-          collapsed: false,
+          text: "Pegase (obsolète)",
+          collapsed: true,
           items: [
             { text: 'Informations', link: '/pegase/readme' },
             { text: 'Paramètres', link: '/pegase/param' },
