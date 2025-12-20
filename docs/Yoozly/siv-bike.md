@@ -4,13 +4,13 @@
 
 Récupère la liste de toutes les stations C.Vélo.
 
-### Requête
+## Requête
 
 ```http
 GET https://api.t2c.fr/siv/bike
 ```
 
-### Réponse
+## Exemple de réponse
 
 ```json
 {
@@ -57,7 +57,7 @@ GET https://api.t2c.fr/siv/bike
 }
 ```
 
-### Champs
+## Champs
 
 | Champ | Type | Description |
 |-------|------|-------------|
@@ -77,7 +77,7 @@ GET https://api.t2c.fr/siv/bike
 | `nearby_distance` | number | Distance de proximité (m) |
 | `_ride_code_support` | boolean | Support du code de location |
 
-### Méthodes de location
+## Méthodes de location
 
 | Valeur | Description |
 |--------|-------------|
