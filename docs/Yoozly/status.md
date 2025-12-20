@@ -4,13 +4,13 @@
 
 Récupère l'état actuel de l'application (maintenance, mise à jour requise).
 
-### Requête
+## Requête
 
 ```http
 GET https://api.t2c.fr/status
 ```
 
-### Réponse
+## Exemple de réponse
 
 ```json
 {
@@ -19,21 +19,21 @@ GET https://api.t2c.fr/status
 }
 ```
 
-### Champs
+## Champs
 
 | Champ | Type | Description |
 |-------|------|-------------|
 | `maintenance` | boolean | Mode maintenance activé |
 | `forceupdate` | number | Version minimum requise (versionCode) |
 
-### Utilisation
+## Utilisation
 
 L'application vérifie ce endpoint au démarrage pour :
 
 1. **Mode maintenance** : Si `maintenance` est `true`, l'application affiche une page de maintenance
 2. **Mise à jour forcée** : Si le `versionCode` de l'app est inférieur à `forceupdate`, l'utilisateur est redirigé vers le store
 
-### Valeurs connues
+## Valeurs connues
 
 | versionCode | versionName | Notes |
 |-------------|-------------|-------|
