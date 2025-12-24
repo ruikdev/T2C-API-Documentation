@@ -30,7 +30,7 @@ export default defineConfig({
         text: 'API Yoozly',
         items: [
           { text: 'API Server', link: '/Yoozly/API_Server/readme' },
-          { text: 'API Server', link: '/Yoozly/analytics/readme' }
+          { text: 'Analytics', link: '/Yoozly/analytics/readme' }
         ]
       },
       { 
