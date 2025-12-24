@@ -57,13 +57,25 @@ Editorial est un
 |----------|-------------|
 | [/news](/Yoozly/API_Server/editorial-news) | Actualités |
 | [/events](/Yoozly/API_Server/editorial-events) | Événements |
+<!-- /page/:slug Aucune requête de l'appli -->
 | [/page/:slug](/Yoozly/API_Server/editorial-pages) | Pages statiques |
+| /lines/:lineid | Infos générales lignes? |
+| /sales-points | Points de ventes |
+| /park-and-ride | Parkings? |
+
+### Notification
+
+*WIP*
+
+### Site
+
+*WIP*
 
 ### Status
 
 | Endpoint | Description |
 |----------|-------------|
-| / | GET | État de l'application |
+| / | État de l'application |
 
 
 ## Avertissement
