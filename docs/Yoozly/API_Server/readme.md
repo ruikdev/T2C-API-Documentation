@@ -51,9 +51,9 @@ Le SIV *(Système d'Information Voyageur)* est un service qui remplace essentiel
 
 ### Status
 
-| Endpoint | Méthode | Description | Statut |
-|----------|---------|-------------|--------|
-| / | GET | État de l'application | Fonctionnel |
+| Endpoint | Description |
+|----------|-------------|
+| / | GET | État de l'application |
 
 
 ## Avertissement

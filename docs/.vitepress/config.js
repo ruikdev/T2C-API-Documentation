@@ -29,7 +29,8 @@ export default defineConfig({
       {
         text: 'API Yoozly',
         items: [
-          { text: 'API Yoozly', link: '/Yoozly/readme' }
+          { text: 'API Server', link: '/Yoozly/API_Server/readme' },
+          { text: 'API Server', link: '/Yoozly/analytics/readme' }
         ]
       },
       { 
@@ -64,16 +65,16 @@ export default defineConfig({
           text: "Yoozly",
           collapsed: false,
           items: [
-            { text: 'Informations', link: '/Yoozly/readme' },
-            { text: 'SIV - Arrêts', link: '/Yoozly/siv-stops' },
-            { text: 'SIV - Lignes', link: '/Yoozly/siv-routes' },
-            { text: 'SIV - C.Vélo', link: '/Yoozly/siv-bike' },
-            { text: 'SIV - POI', link: '/Yoozly/siv-poi' },
-            { text: 'SIV - Itinéraires', link: '/Yoozly/siv-itineraries' },
-            { text: 'Editorial - News', link: '/Yoozly/editorial-news' },
-            { text: 'Editorial - Events', link: '/Yoozly/editorial-events' },
-            { text: 'Editorial - Pages', link: '/Yoozly/editorial-pages' },
-            { text: 'Status', link: '/Yoozly/status' },
+            { text: 'Informations', link: '/Yoozly/API_Server/readme' },
+            { text: 'SIV - Arrêts', link: '/Yoozly/API_Server/siv-stops' },
+            { text: 'SIV - Lignes', link: '/Yoozly/API_Server/siv-routes' },
+            { text: 'SIV - C.Vélo', link: '/Yoozly/API_Server/siv-bike' },
+            { text: 'SIV - POI', link: '/Yoozly/API_Server/siv-poi' },
+            { text: 'SIV - Itinéraires', link: '/Yoozly/API_Server/siv-itineraries' },
+            { text: 'Editorial - News', link: '/Yoozly/API_Server/editorial-news' },
+            { text: 'Editorial - Events', link: '/Yoozly/API_Server/editorial-events' },
+            { text: 'Editorial - Pages', link: '/Yoozly/API_Server/editorial-pages' },
+            { text: 'Status', link: '/Yoozly/API_Server/status' },
           ],
         },
         {
