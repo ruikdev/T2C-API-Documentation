@@ -28,20 +28,30 @@ L'API est accessible via plusieurs services :
 
 ### SIV
 
-Le SIV *(Système d'Information Voyageur)* est un service qui remplace essentiellement [OpenIT](/WinDev/OpenIT/readme), il permet d'obtenir des informations sur des arrêts, itinéraires, points d'intérêts, C.Vélos...
+Le SIV *(Système d'Information Voyageur)* est un service qui remplace essentiellement [OpenIT](/WinDev/OpenIT/readme) et [XML_T2C](/WinDev/T2C_XML/readme), il permet d'obtenir des informations sur des arrêts, itinéraires, points d'intérêts, C.Vélos, infos-traffic...
 
-| Endpoint                                | Description                  |
-|-----------------------------------------|------------------------------|
-| [/stops](/Yoozly/API_Server/siv-stops)             | Liste de tous les arrêts     |
-| [/stops/:id](/Yoozly/API_Server/siv-stops)         | Détails d'un arrêt           |
-| [/stops/search](/Yoozly/API_Server/siv-stops)      | Recherche d'arrêts           |
-| [/routes](/Yoozly/API_Server/siv-routes)           | Liste des lignes/itinéraires |
-| [/routes/:id](/Yoozly/API_Server/siv-routes)       | Détails d'une ligne          |
-| [/bike](/Yoozly/API_Server/siv-bike)               | Stations C.Vélo              |
-| [/poi](/Yoozly/API_Server/siv-poi)                 | Points d'intérêt             |
-| [/itineraries](/Yoozly/API_Server/siv-itineraries) | Calcul d'itinéraires         |
+| Endpoint                                                   | Description                  |
+|------------------------------------------------------------|------------------------------|
+| [/stops](/Yoozly/API_Server/siv-stops)                     | Liste de tous les arrêts     |
+| [/stops/:id](/Yoozly/API_Server/siv-stops)                 | Détails d'un arrêt           |
+| [/stops/search](/Yoozly/API_Server/siv-stops)              | Recherche d'arrêts           |
+| /stops/:id/departures                                      | Informations sur les départs (Infos arrêts, tracé carte, destinations, aperçus de départs) |
+| /stops/:id/routes/:roadid/departures                       | Prochains départs  |
+| [/routes](/Yoozly/API_Server/siv-routes)                   | Liste des lignes/itinéraires |
+<!-- /routes/:id Aucune requête de l'appli -->
+| [/routes/:id](/Yoozly/API_Server/siv-routes)               | Détails d'une ligne          |
+<!-- /bike Aucune requête de l'appli -->
+| [/bike](/Yoozly/API_Server/siv-bike)                       | Stations C.Vélo              |
+| [/poi](/Yoozly/API_Server/siv-poi)                         | Points d'intérêt             |
+| [/itineraries](/Yoozly/API_Server/siv-itineraries)         | Calcul d'itinéraires         |
+| /alerts/banners                                            | Bannière d'alertes???        |
+| /alerts/byline/:lineid                                     | Infos Traffic Ligne          |
+| /trips/:tripid/stops                                       | Arrêts et départs d'un itinéraire |
+| /trips/:tripid/shapes                                       | Tracé de la carte d'un itinéraire |
 
-### Editorial (Contenu)
+### Editorial
+
+Editorial est un 
 
 | Endpoint | Description |
 |----------|-------------|
